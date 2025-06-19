@@ -10,9 +10,8 @@ from supabase import create_client
 from charts import monthly, yearly, category_pie, filter_by_year_range, daily, select_year, calc_avg
 
 
-SUPABASE_URL = os.getenv("SUPABASE_URL") or "https://ssxcspxupdgfxmwpkkzf.supabase.co"
-SUPABASE_KEY = os.getenv("SUPABASE_KEY") or "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzeGNzcHh1cGRnZnhtd3Bra3pmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAyNjU2MTYsImV4cCI6MjA2NTg0MTYxNn0.mzrgqmc0G-wK6DvgSkQVBRJt9mTkxgsaVyzbJUAa8PI"
-
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
