@@ -8,3 +8,4 @@ opencv-python-headless
 supabase
 matplotlib
 requests
+plotly
