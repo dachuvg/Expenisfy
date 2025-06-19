@@ -32,7 +32,7 @@ for key, default in {
     if key not in st.session_state:
         st.session_state[key] = default
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
 def set_auth():
