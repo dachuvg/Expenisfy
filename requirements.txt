@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+pillow
+python-dateutil
+pytesseract
+opencv-python-headless
+supabase
+matplotlib
+requests
