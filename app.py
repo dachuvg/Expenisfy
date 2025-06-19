@@ -33,7 +33,7 @@ for key, default in {
         st.session_state[key] = default
 
 # pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 def set_auth():
     if "access_token" in st.session_state and "refresh_token" in st.session_state:
