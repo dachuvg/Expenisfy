@@ -289,7 +289,7 @@ with tab1:
     st.dataframe(st.session_state.df, use_container_width=True)
     
     st.markdown(f"#### 🎯 Average Daily Spend: {calc_avg(st.session_state.df):.2f}")
-    st.markdown(":star: at [github.com/dachuvg/Expenisfy](https://github.com/dachuvg/Expenisfy)")
+    
 
 with tab2:
     if st.session_state.df.empty:
@@ -339,6 +339,8 @@ with st.sidebar:
 
        
     """)
+    
+    st.markdown(":star: at [github.com/dachuvg/Expenisfy](https://github.com/dachuvg/Expenisfy)")
 
     
 
