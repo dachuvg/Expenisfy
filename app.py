@@ -7,7 +7,7 @@ import os
 import re
 from dateutil import parser
 from supabase import create_client
-from Expenisfy.charts import monthly, yearly, category_pie, filter_by_year_range, daily, select_year, calc_avg
+from charts import monthly, yearly, category_pie, filter_by_year_range, daily, select_year, calc_avg
 
 
 SUPABASE_URL = os.getenv("SUPABASE_URL") or "https://ssxcspxupdgfxmwpkkzf.supabase.co"
