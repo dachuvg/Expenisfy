@@ -56,7 +56,13 @@ streamlit run app.py
     🎈 Try it out here: <a href="https://expensify-app.streamlit.app/">Expensify-app </a>
 </h3>
 
+## Screenshots
+![Pic1](https://github.com/dachuvg/Expenisfy/blob/main/screenshots/pic1.png)
+![Pic2](https://github.com/dachuvg/Expenisfy/blob/main/screenshots/pic2.png)
+![Pic3](https://github.com/dachuvg/Expenisfy/blob/main/screenshots/pic3.png)
+![Pic4](https://github.com/dachuvg/Expenisfy/blob/main/screenshots/pic4.png)
+![Pic5](https://github.com/dachuvg/Expenisfy/blob/main/screenshots/pic5.png)
+
 ---
 
-## Screenshots
 
