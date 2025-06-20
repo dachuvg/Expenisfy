@@ -1,10 +1,10 @@
-# 💸 Expensify – Smart Expense Tracker with Login (Streamlit + Supabase)
+# Expensify – Smart Expense Tracker with Login (Streamlit + Supabase)
 
 Expensify is a lightweight, secure, and user-friendly expense tracking web app built with **Streamlit** and **Supabase**. It allows users to **register**, **log in**, and manage their expenses with **receipt detials** and **per-user visual charts**.
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Authentication
 - Secure **email/password login and registration** powered by Supabase.
@@ -35,7 +35,7 @@ Expensify is a lightweight, secure, and user-friendly expense tracking web app b
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -57,4 +57,6 @@ streamlit run app.py
 </h3>
 
 ---
+
+## Screenshots
 
