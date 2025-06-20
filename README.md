@@ -51,3 +51,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+<h3 align="center">
+    🎈 Try it out here: <a href="https://expensify-app.streamlit.app/">Expensify-app </a>
+</h3>
+
+---
+
